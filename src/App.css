@@ -1,0 +1,55 @@
+.App {
+  width: 320px; 
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contacts {
+  list-style: none;
+}
+ul {
+  margin-top: 0;
+  padding-left: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  border-radius: 30px;
+}
+
+li {
+  height: 70px;
+  border-bottom: solid 1px lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  height: 70px;
+  font-size: 15px;
+  color: black;
+  position: relative;
+}
+span{
+  position: absolute;
+  left: 60px;
+  top: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+
+}
+
+h1 {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: rgb(112, 178, 44);
+  font-size: 23px;
+}

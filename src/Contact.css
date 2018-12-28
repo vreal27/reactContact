@@ -1,0 +1,35 @@
+ul {
+ height: 100%;
+ width: 100%;
+}
+
+#container li {
+    height: 30px;
+    width: 100%;
+    list-style: none;
+}
+#container {
+    height: 400px;
+    width: 320px;
+}
+.profilepic {
+    background-color: rgb(152,200,99);
+    height: 200px;
+    width: 100%;
+}
+
+#container img {
+    border-radius: 60px;
+    margin-left: 87px;
+    margin-top: 20px;
+}
+
+.fullname {
+    text-transform: capitalize;
+}
+
+#container i {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}
